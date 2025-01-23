@@ -1,0 +1,124 @@
+header, footer, .gallery-image, .movie-container {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+header, footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+header {
+    background-color: #0073e6;
+}
+#logo {
+    padding-left: 5%;
+    display: block;
+}
+#search {
+    margin-left: 80%;
+}
+
+#loadMore {
+    margin-left: 47%;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+}
+.gallery-image {
+    width: 150px;
+    height: auto;
+}
+
+.movie-container {
+    width: 200px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+.movie-container h3 {
+    font-size: 16px;
+    margin: 10px 0 5px;
+    color: #333;
+}
+.movie-container p {
+    font-size: 14px;
+    color: #666;
+    margin: 0;
+}
+.white {
+    color: white;
+}
+.black {
+    color: black;
+}
+.bold {
+    font-weight: bold;
+}
+.underline {
+    text-decoration: underline;
+}
+.center {
+    text-align: center;
+}
+a:hover {
+    color: red;
+}
+.blackBackground {
+    background-color: black;
+}
+.downSpace {
+    padding-bottom: 10px;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+}
+#column {
+    display: flex;
+    flex-direction: column;
+}
+.movie-details.row {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+#movie-poster {
+    width: 275px;
+    height: auto;
+}
+#column {
+    flex: 1;
+}
+.space-left {
+    padding-right: 300px;
+}
+#movie-overview {
+    width: 50%;
+    height: auto;
+    border-radius: 5px;
+}
+.marginBottom {
+    margin-bottom: 1%;
+}
+.linkFooter {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.title {
+    margin-left: 12%;
+    color: white;
+}
+.flou{
+    filter: blur(15%);
+}
