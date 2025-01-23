@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Détails du film</title>
+        <link rel="stylesheet" href="../CSS/style.css"> 
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    </head>
+    <body>
+        <header>
+            <a href="./index.html">
+                <img src="../IMG/Cinérural-Logo.png" width="20%" id="logo" alt="Logo du site CinéRural">
+            </a>
+            <h1 class="title">CinéRural</h1>
+            <a href="./search.html">
+                <img src="../IMG/search.png" width="20%" id="search" alt="Loupe de recherche">
+            </a>
+        </header> 
+        <div class="movie-details row">
+            <img id="movie-poster" src="" alt="Affiche du film">
+            <div id="column">
+                <h1 id="movie-title"></h1>
+                <div class="row">
+                    <div class="genres">
+                        <h3 class="black space-left">Genres</h3>
+                        <ul id="movie-genres" class="bold"></ul>
+                    </div>
+                    <div class="actors">
+                        <h3 class="black">Acteurs</h3>
+                        <ul id="movie-actors" class="bold"></ul>
+                    </div>
+                    <div id="movie-trailers"></div>
+                </div>
+            </div>
+        </div>
+        <div id="movie-rating" class="bold"></div>
+        <p id="movie-overview"></p>
+        <footer class="bold">
+            <div>
+                <p>Nous contacter: </p>
+                <a href="mailto:cinerural@outlook.com">cinerural@outlook.com</a>
+                <p>0788046032</p>
+            </div>
+            <div>
+                <p>Siège social de l'entreprise: </p>
+                <p>8 Rue de la Folie, Caen, Calvados, 14000</p>
+            </div>
+            <div class="linkFooter">
+                <a class="black" href="./CGU-footer.html">Voir les CGU</a>
+                <a class="black" href="./confidentialité.html">Voir la politique de confidentialité</a>
+            </div>
+        </footer>
+        <script type="module" src="../JS/movie.js"></script>
+    </body>
+</html>
